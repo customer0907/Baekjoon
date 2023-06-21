@@ -41,7 +41,8 @@ int main()
 		cout << m[i].age << " " << m[i].name << "\n"; // endl 은 버퍼 메모리를 많이 차지하므로 N의 값이 커질 수록 시간이 오래 소모됨.
 	}
 
-
+	cout << "변경 내용" << endl;
+	
 	return 0;
 
 }
